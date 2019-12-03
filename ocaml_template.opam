@@ -1,0 +1,9 @@
+opam-version: "2.0"
+version: "1.0"
+description: "Template for Ocaml projects"
+maintainer: "maintainer@example.com"
+depends: [
+  "ocaml" {>= "4.09.0"}
+  "dune" {>= "2.0" & < "3.0"}
+  "ocamlformat" {>= "0.12"}
+]
